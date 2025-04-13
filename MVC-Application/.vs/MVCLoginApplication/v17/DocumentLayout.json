@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\1866.PCCENTER\\Desktop\\MVCLoginApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20288D46-A2CB-44FF-BDFC-2F508113B60B}|MVCLoginApplication\\MVCLoginApplication.csproj|c:\\users\\1866.pccenter\\desktop\\mvcloginapplication\\mvcloginapplication\\views\\pcexamcenterlistcopy\\pcexamcenterpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{20288D46-A2CB-44FF-BDFC-2F508113B60B}|MVCLoginApplication\\MVCLoginApplication.csproj|solutionrelative:mvcloginapplication\\views\\pcexamcenterlistcopy\\pcexamcenterpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20288D46-A2CB-44FF-BDFC-2F508113B60B}|MVCLoginApplication\\MVCLoginApplication.csproj|C:\\Users\\1866.PCCENTER\\Desktop\\MVCLoginApplication\\mvcloginapplication\\controllers\\pcexamcenterlistcopycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20288D46-A2CB-44FF-BDFC-2F508113B60B}|MVCLoginApplication\\MVCLoginApplication.csproj|solutionrelative:mvcloginapplication\\controllers\\pcexamcenterlistcopycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20288D46-A2CB-44FF-BDFC-2F508113B60B}|MVCLoginApplication\\MVCLoginApplication.csproj|C:\\Users\\1866.PCCENTER\\Desktop\\MVCLoginApplication\\mvcloginapplication\\views\\pcexamcenterlistcopy\\pcexamcenterlistcopyview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{20288D46-A2CB-44FF-BDFC-2F508113B60B}|MVCLoginApplication\\MVCLoginApplication.csproj|solutionrelative:mvcloginapplication\\views\\pcexamcenterlistcopy\\pcexamcenterlistcopyview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20288D46-A2CB-44FF-BDFC-2F508113B60B}|MVCLoginApplication\\MVCLoginApplication.csproj|C:\\Users\\1866.PCCENTER\\Desktop\\MVCLoginApplication\\mvcloginapplication\\pcclasscopy\\pcexamcenterlistclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20288D46-A2CB-44FF-BDFC-2F508113B60B}|MVCLoginApplication\\MVCLoginApplication.csproj|solutionrelative:mvcloginapplication\\pcclasscopy\\pcexamcenterlistclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20288D46-A2CB-44FF-BDFC-2F508113B60B}|MVCLoginApplication\\MVCLoginApplication.csproj|C:\\Users\\1866.PCCENTER\\Desktop\\MVCLoginApplication\\mvcloginapplication\\models\\pcexamcenterlistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20288D46-A2CB-44FF-BDFC-2F508113B60B}|MVCLoginApplication\\MVCLoginApplication.csproj|solutionrelative:mvcloginapplication\\models\\pcexamcenterlistmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:16:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:17:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:18:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:19:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:20:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:21:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "pcExamCenterPartialView.cshtml",
+              "DocumentMoniker": "C:\\Users\\1866.PCCENTER\\Desktop\\MVCLoginApplication\\MVCLoginApplication\\Views\\pcExamCenterListCopy\\pcExamCenterPartialView.cshtml",
+              "RelativeDocumentMoniker": "MVCLoginApplication\\Views\\pcExamCenterListCopy\\pcExamCenterPartialView.cshtml",
+              "ToolTip": "C:\\Users\\1866.PCCENTER\\Desktop\\MVCLoginApplication\\MVCLoginApplication\\Views\\pcExamCenterListCopy\\pcExamCenterPartialView.cshtml",
+              "RelativeToolTip": "MVCLoginApplication\\Views\\pcExamCenterListCopy\\pcExamCenterPartialView.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-03T06:12:50.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "pcExamCenterListClass.cs",
+              "DocumentMoniker": "C:\\Users\\1866.PCCENTER\\Desktop\\MVCLoginApplication\\MVCLoginApplication\\pcClassCopy\\pcExamCenterListClass.cs",
+              "RelativeDocumentMoniker": "MVCLoginApplication\\pcClassCopy\\pcExamCenterListClass.cs",
+              "ToolTip": "C:\\Users\\1866.PCCENTER\\Desktop\\MVCLoginApplication\\MVCLoginApplication\\pcClassCopy\\pcExamCenterListClass.cs",
+              "RelativeToolTip": "MVCLoginApplication\\pcClassCopy\\pcExamCenterListClass.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAADwvzoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T05:36:08.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "pcExamCenterListCopyView.cshtml",
+              "DocumentMoniker": "C:\\Users\\1866.PCCENTER\\Desktop\\MVCLoginApplication\\MVCLoginApplication\\Views\\pcExamCenterListCopy\\pcExamCenterListCopyView.cshtml",
+              "RelativeDocumentMoniker": "MVCLoginApplication\\Views\\pcExamCenterListCopy\\pcExamCenterListCopyView.cshtml",
+              "ToolTip": "C:\\Users\\1866.PCCENTER\\Desktop\\MVCLoginApplication\\MVCLoginApplication\\Views\\pcExamCenterListCopy\\pcExamCenterListCopyView.cshtml",
+              "RelativeToolTip": "MVCLoginApplication\\Views\\pcExamCenterListCopy\\pcExamCenterListCopyView.cshtml",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAACwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-02T12:52:01.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "pcExamCenterListCopyController.cs",
+              "DocumentMoniker": "C:\\Users\\1866.PCCENTER\\Desktop\\MVCLoginApplication\\MVCLoginApplication\\Controllers\\pcExamCenterListCopyController.cs",
+              "RelativeDocumentMoniker": "MVCLoginApplication\\Controllers\\pcExamCenterListCopyController.cs",
+              "ToolTip": "C:\\Users\\1866.PCCENTER\\Desktop\\MVCLoginApplication\\MVCLoginApplication\\Controllers\\pcExamCenterListCopyController.cs",
+              "RelativeToolTip": "MVCLoginApplication\\Controllers\\pcExamCenterListCopyController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T11:32:02.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "pcExamCenterListModel.cs",
+              "DocumentMoniker": "C:\\Users\\1866.PCCENTER\\Desktop\\MVCLoginApplication\\MVCLoginApplication\\Models\\pcExamCenterListModel.cs",
+              "RelativeDocumentMoniker": "MVCLoginApplication\\Models\\pcExamCenterListModel.cs",
+              "ToolTip": "C:\\Users\\1866.PCCENTER\\Desktop\\MVCLoginApplication\\MVCLoginApplication\\Models\\pcExamCenterListModel.cs",
+              "RelativeToolTip": "MVCLoginApplication\\Models\\pcExamCenterListModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T06:09:17.257Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

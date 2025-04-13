@@ -1,0 +1,137 @@
+﻿
+@*@{
+        ViewBag.Title = "pcLoginView";
+    }*@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+
+    <!-- jQuery & jQuery UI -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+
+    <style>
+
+        #form-struct {
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+        }
+    </style>
+</head>
+
+    <body class="bg-light">
+
+        <div class="container-fluid">
+            <div class="p-5">
+                <form id="form-struct" class="bg-white p-4 bg-body rounded shadow">
+                    <div class="row mb-3 mt-3">
+                        <div class="col-md-4">
+                            <label for="inptusrname" id="lblusername">UserName</label>
+                        </div>
+
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" id="txtusername" name="txtusername"  />
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <label for="inptemail" id="lblemail">Email</label>
+                        </div>
+
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" id="txtemailid" />
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col-md-4">
+                            <label for="inptpwd" id="lblpwd" class="col-md-2 col-form-label">Password</label>
+                        </div>
+
+                        <div class="col-md-8">
+                            <input type="password" class="form-control" id="txtpassword" name="txtpassword" />
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-2">
+                        <input type="button" id="btnlogin" class="btn btn-primary w-100" value="Login"  />
+
+                        <input type="button" id="btnexit" class="btn btn-primary w-100" value="Exit" />
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+
+    </body>
+
+</html>
+
+<script>
+    $('#btnlogin').click(function () {
+        debugger;
+        var usrname = document.getElementById("txtusername").value.trim();
+        if (usrname == "") {
+            alert("Please Enter UserName");
+            return false;
+        }
+        if (usrname.length< 2) {
+            alert("Username must be atleast 2 characters..");
+            return false;
+        }
+        var email = document.getElementById("txtemailid").value.trim();
+        var emailregx= /^[a-zA-Z0-9._%+-]+@@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        if (email == "") {
+            alert("Please Enter your Email address");
+            return false;
+        }
+        if (!emailregx.test(email)) {
+            alert("Please Enter a valid Email address");
+            return false;
+        }
+
+        var pwd = document.getElementById("txtpassword").value.trim();
+
+        if (pwd === "") {
+          alert("Please enter password!");
+         return false;
+        }
+
+        if (pwd.length < 8) {
+           alert("Password must be at least 8 characters long.");
+           return false;
+        }
+
+        if (!/[A-Z]/.test(pwd)) {
+         alert("Password must contain at least one uppercase letter.");
+         return false;
+        }
+
+        if (!/[a-z]/.test(pwd)) {
+          alert("Password must contain at least one lowercase letter.");
+          return false;
+        }
+
+        if (!/[0-9]/.test(pwd)) {
+          alert("Password must contain at least one digit.");
+          return false;
+        }
+
+        if (!/[@@$!%*?&]/.test(pwd)) {
+          alert("Password must contain at least one special character (@@ $ ! % * ? &).");
+           return false;
+        }
+
+    });
+</script>

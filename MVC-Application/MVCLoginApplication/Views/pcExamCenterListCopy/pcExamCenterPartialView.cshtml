@@ -1,0 +1,68 @@
+﻿@model MVCLoginApplication.Models.pcExamCenterListModel
+@{
+    ViewBag.Title = "pcExamCenterPartialView";
+}
+@if (Model.gvpcExamCenterList != null)
+{
+    if (Model.gvpcExamCenterList.Count() != 0)
+    {
+        string strTable_DataNm = "gvpcExamCenterList";
+        string strTmpData = "";
+        string strNumber = "";
+        <div id="gvPartialView" class="hiddenDiv" style="padding: 0px 80px; ">
+            <label class="form-label form-label-sm mt-2">
+                <b> List of Exam Centers</b>
+            </label>
+
+            <div class="table-responsive" style="max-height:400px;">
+                <table class="table table-bordered" style="font-size: 13px; border: 1px solid #ccc;" >
+                    <thead style="font-size: 14px; overflow: auto; position:sticky; top:0%; z-index:1; background:#fff ">
+                        <tr class="text-center">
+                            <th>Sr.No</th>
+                            <th style="width:12%;">Center Code</th>
+                            <th style="width:70%;">Center Name and Address </th>
+                            <th style="width:12%;">Telephone No.</th>
+                        </tr>
+                        <tr>
+                            <th colspan="4">District: @Model.txtSelectedDistrictValue</th>
+                        </tr>
+                    </thead>
+                    @{ 
+                        int FirstNM = 1;
+                    }
+                   
+                    @for (int i = 0; i < Model.gvpcExamCenterList.Count() - 1; i++)
+                            {
+                        <tr>
+                            <td>
+                               
+                                <input value="@FirstNM" style="border:none; outline:none;" readonly/>
+                            </td>
+                            <td>
+                                <input value="@Model.gvpcExamCenterList.ElementAt(i).txtCenterCode" style="border:none; outline:none" readonly/>
+                            </td>
+                            <td>
+                                <div class="w-100">
+                                    <input value="@Model.gvpcExamCenterList.ElementAt(i).txtCenterName" class="fw-bold w-100" style="border:none;outline:none;" readonly/>
+                                   <br />
+                                   <textarea class="w-100 auto-resize" style="border: none; outline: none; overflow: hidden; resize: none;" readonly>@Model.gvpcExamCenterList.ElementAt(i).txtCenterAddress</textarea>
+                                </div>
+                                
+                            </td>
+                            <td>
+                                <input  value="@Model.gvpcExamCenterList.ElementAt(i).txtTelephoneNo" style="border:none; outline:none;" readonly/>
+                            </td>
+                        </tr>
+                                        FirstNM++;
+                                    }
+
+
+
+                </table>
+            </div>
+        </div>
+
+    }
+
+}
+
